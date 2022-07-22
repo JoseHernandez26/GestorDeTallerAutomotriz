@@ -23,7 +23,7 @@ El módulo Ordenes de reparación recibidas deberá permitir realizar las siguie
 6.	Fecha de ingreso: No se digita, es la fecha y hora en la que se ingresó al sistema la orden.
 7.	Estado: No se digita, por omisión se ingresa en estado Recibida (1).
 
-•	Listar las ordenes que se encuentren en estado Recibida (1). (5 pts)
+•	Listar las ordenes que se encuentren en estado Recibida (1). 
 1.	Por cada orden se debe mostrar la siguiente información:
 Nombre del cliente.
 Número de placa.
