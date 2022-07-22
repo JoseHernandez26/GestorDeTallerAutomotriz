@@ -1,0 +1,61 @@
+﻿@model IEnumerable<GestorTallerAutomotriz.Model.Ordenes>
+
+@{
+    ViewData["Title"] = "ObtengaLaListaDeOrdenesCanceladas";
+}
+
+<h1>ObtengaLaListaDeOrdenesCanceladas</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDelCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+         
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDelCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+       
+            <td>
+              
+                @Html.ActionLink("Detalles", " DetalleOrdenCancelada", new {  id=item.Id})
+          
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

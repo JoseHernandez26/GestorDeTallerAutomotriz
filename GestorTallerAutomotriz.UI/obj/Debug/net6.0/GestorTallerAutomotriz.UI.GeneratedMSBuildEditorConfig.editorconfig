@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestorTallerAutomotriz.UI
+build_property.RootNamespace = GestorTallerAutomotriz.UI
+build_property.ProjectDir = C:\Users\odise\Desktop\Self-Taught\C#-.net\GestorTallerAutomotriz\GestorTallerAutomotriz.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\odise\Desktop\Self-Taught\C#-.net\GestorTallerAutomotriz\GestorTallerAutomotriz.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/CancelarOrden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cQ2FuY2VsYXJPcmRlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/CancelarUnaOrden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cQ2FuY2VsYXJVbmFPcmRlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/CompletarUnaOrden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cQ29tcGxldGFyVW5hT3JkZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/DetalleOrden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cRGV0YWxsZU9yZGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/DetalleOrdenCancelada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cRGV0YWxsZU9yZGVuQ2FuY2VsYWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/DetalleOrdenCompletada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cRGV0YWxsZU9yZGVuQ29tcGxldGFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/IniciarOrden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cSW5pY2lhck9yZGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/ObtengaLaListaDeOrdenesCanceladas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT2J0ZW5nYUxhTGlzdGFEZU9yZGVuZXNDYW5jZWxhZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/ObtengaLaListaDeOrdenesCompletadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT2J0ZW5nYUxhTGlzdGFEZU9yZGVuZXNDb21wbGV0YWRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/ObtengaLaListaDeOrdenesEnProceso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT2J0ZW5nYUxhTGlzdGFEZU9yZGVuZXNFblByb2Nlc28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Orden/ObtengaLaListaDeOrdenesRecibidas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT2J0ZW5nYUxhTGlzdGFEZU9yZGVuZXNSZWNpYmlkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odise/Desktop/Self-Taught/C\#-.net/GestorTallerAutomotriz/GestorTallerAutomotriz.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rym4ly6aot

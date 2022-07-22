@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorTallerAutomotriz.UI", "GestorTallerAutomotriz.UI\GestorTallerAutomotriz.UI.csproj", "{67618647-50A7-48D6-BA66-83F564C464BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorTallerAutomotriz.BS", "GestorTallerAutomotriz.BS\GestorTallerAutomotriz.BS.csproj", "{AC9E303A-82CE-4329-8BD0-F23774A4B8B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorTallerAutomotriz.DA", "GestorTallerAutomotriz.DA\GestorTallerAutomotriz.DA.csproj", "{C9E3162C-A3F4-440E-87F3-4A34F7140B1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorTallerAutomotriz.Model", "GestorTallerAutomotriz.Model\GestorTallerAutomotriz.Model.csproj", "{AB34A520-AE5A-44B6-AC9F-4B1C4E3B5A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestorTallerAutomotriz.SI", "GestorTallerAutomotriz.SI\GestorTallerAutomotriz.SI.csproj", "{EE043CD1-FD84-4545-9A1D-3A7AF9BA2C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67618647-50A7-48D6-BA66-83F564C464BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67618647-50A7-48D6-BA66-83F564C464BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67618647-50A7-48D6-BA66-83F564C464BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67618647-50A7-48D6-BA66-83F564C464BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9E303A-82CE-4329-8BD0-F23774A4B8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9E303A-82CE-4329-8BD0-F23774A4B8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9E303A-82CE-4329-8BD0-F23774A4B8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9E303A-82CE-4329-8BD0-F23774A4B8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E3162C-A3F4-440E-87F3-4A34F7140B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E3162C-A3F4-440E-87F3-4A34F7140B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E3162C-A3F4-440E-87F3-4A34F7140B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E3162C-A3F4-440E-87F3-4A34F7140B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB34A520-AE5A-44B6-AC9F-4B1C4E3B5A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34A520-AE5A-44B6-AC9F-4B1C4E3B5A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34A520-AE5A-44B6-AC9F-4B1C4E3B5A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34A520-AE5A-44B6-AC9F-4B1C4E3B5A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE043CD1-FD84-4545-9A1D-3A7AF9BA2C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE043CD1-FD84-4545-9A1D-3A7AF9BA2C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE043CD1-FD84-4545-9A1D-3A7AF9BA2C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE043CD1-FD84-4545-9A1D-3A7AF9BA2C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AC8188E-0F74-485C-A3E7-2243A206DDB2}
+	EndGlobalSection
+EndGlobal

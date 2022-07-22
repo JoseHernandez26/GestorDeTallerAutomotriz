@@ -1,0 +1,103 @@
+﻿@model IEnumerable<GestorTallerAutomotriz.Model.Ordenes>
+
+@{
+    ViewData["Title"] = "ObtengaLaListaDeOrdenesEnProceso";
+}
+
+<h1>ObtengaLaListaDeOrdenesEnProceso</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDelCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+       
+             <th>
+                @Html.DisplayNameFor(model => model.NombreDelMecanico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeIngreso)
+            </th>
+          
+         
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeInicioDeAtencion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadDeDiasEnTaller)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadDeDiasEnProceso)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDelCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+
+             <td>
+                @Html.DisplayFor(modelItem => item.NombreDelMecanico)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+          
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeIngreso)
+            </td>
+            
+       
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeInicioDeAtencion)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadDeDiasEnTaller)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadDeDiasEnProceso)
+            </td>
+            <td>
+                @Html.ActionLink("CancelarOrden", "CancelarUnaOrden", new {  id=item.Id}) |
+                @Html.ActionLink("CompletarOrden", "CompletarUnaOrden", new {  id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

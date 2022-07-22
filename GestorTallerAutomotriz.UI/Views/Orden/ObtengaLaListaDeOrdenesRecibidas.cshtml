@@ -1,0 +1,62 @@
+﻿@model IEnumerable<GestorTallerAutomotriz.Model.Ordenes>
+
+@{
+    ViewData["Title"] = "ObtengaLaListaDeOrdenesRecibidas";
+}
+
+<h2>Lista de ordenes en estado recibida</h2>
+
+<p>
+    <a asp-action="Create">Ingresar una nueva orden de reparación</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDelCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Placa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            
+          
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDelCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+        
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id  }) |
+                @Html.ActionLink("CancelarOrden", "CancelarOrden", new {  id=item.Id }) |
+                @Html.ActionLink("IniciarOrden", "IniciarOrden", new {  id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
